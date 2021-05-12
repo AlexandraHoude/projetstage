@@ -5,12 +5,13 @@ import { useTheme } from '@material-ui/core/styles';
 import React from 'react';
 import { Card, Image } from 'react-bootstrap';
 import { useSubheader } from '../../_metronic/layout';
-import { ActivitesRecentes } from '../components/ActivitesRecentes';
-import { ApercuStagiaires } from '../components/ApercuStagiaires';
-import { CardTuteur } from '../components/cards/CardTuteur';
-import { CommunauteDaide } from '../components/CommunauteDaide/CommunauteDaide';
-import { GraphSante, GraphTaches } from '../components/graphiques/';
-import { InformationsGroupe } from '../components/InformationsGroupe';
+import { ActivitesRecentes } from '../../components/ActivitesRecentes';
+import { ApercuStagiaires } from '../../components/ApercuStagiaires';
+import { CarteTuteur } from '../../components/cartes/CarteTuteur';
+import { communauteAide } from '../../components/communauteAide/communauteAide';
+import { GraphSante } from '../../components/graphiques/GraphSante';
+import { GraphTaches } from '../../components/graphiques/GraphTaches';
+import { InformationsGroupe } from '../../components/InformationsGroupe';
 
 
 
@@ -76,7 +77,7 @@ export const DashboardGroup = () => {
                                             </Grid>
                                         </Grid>
                                         <Grid item xs={12}>
-                                            <CommunauteDaide />
+                                            <communauteAide />
                                         </Grid>
                                     </Grid>
                                 </Grid>
@@ -96,7 +97,7 @@ export const DashboardGroup = () => {
                                         {
                                             [1,2,3,4].map( item=>
                                                 <Grid key={item} item xs={12} sm={6} md={6} lg={3}>
-                                                    <CardTuteur />
+                                                    <CarteTuteur />
                                                 </Grid>
                                             )}
                                     </Grid>

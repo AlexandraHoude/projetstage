@@ -4,13 +4,12 @@ import { useMediaQuery } from '@material-ui/core/';
 import { useTheme } from '@material-ui/core/styles';
 import React from 'react';
 import { Button } from 'react-bootstrap';
-
 import { useSubheader } from '../../_metronic/layout';
-import { ApercuStagiaires } from '../components/ApercuStagiaires';
-import { ApercuTachesEtudiant } from '../components/cards/ApercuTachesEtudiant';
-import { GraphEvaluationTaches } from '../components/graphiques/GraphEvaluationTaches';
-import { InformationsGroupe } from '../components/InformationsGroupe';
-import { ProfilTuteurHote } from '../components/ProfilTuteurHote';
+import { ApercuStagiaires } from '../../components/ApercuStagiaires';
+import { TacheEtudiant } from '../../components/cartes/TacheEtudiant';
+import { GraphEvaluation } from '../../components/graphiques/GraphEvaluation';
+import { InformationsGroupe } from '../../components/InformationsGroupe';
+import { ProfilTuteurHote } from '../../components/ProfilTuteurHote';
 
 export const ListeTachesEtudiant = () => {
     const suhbeader = useSubheader();
@@ -39,12 +38,12 @@ export const ListeTachesEtudiant = () => {
                 {matchesLG && <Grid  item sm={1}></Grid>}
                 {matchesLG && Infos()}
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={6} className='px-10'>
-                    <GraphEvaluationTaches />
+                    <GraphEvaluation />
                     <h1 className='py-5 mt-10'>Tâches</h1>
-                    <ApercuTachesEtudiant />
-                    <ApercuTachesEtudiant />
-                    <ApercuTachesEtudiant />
-                    <ApercuTachesEtudiant />
+                    <TacheEtudiant />
+                    <TacheEtudiant />
+                    <TacheEtudiant />
+                    <TacheEtudiant />
                     <div className='text-center'>
                         <Button className='mb-3'>Voir plus</Button>
                     </div>

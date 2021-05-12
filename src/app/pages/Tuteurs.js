@@ -1,4 +1,3 @@
-
 /* eslint-disable no-restricted-imports */
 import { Grid } from '@material-ui/core';
 import { useMediaQuery } from '@material-ui/core/';
@@ -9,8 +8,8 @@ import SVG from 'react-inlinesvg';
 import styled from 'styled-components';
 import { toAbsoluteUrl } from '../../_metronic/_helpers';
 import { useSubheader } from '../../_metronic/layout';
-import { CardPageTuteur } from '../components/cards/CardPageTuteur';
-import { InformationsGroupe } from '../components/InformationsGroupe';
+import { CartePageTuteur } from '../../components/cartes/CartePageTuteur';
+import { InformationsGroupe } from '../../components/InformationsGroupe';
 
 
 export const Tuteurs = () => {
@@ -71,9 +70,9 @@ export const Tuteurs = () => {
                         Nouveau
                     </Button>
                     <div className='pt-20'>
-                        <CardPageTuteur />
-                        <CardPageTuteur />
-                        <CardPageTuteur />
+                        <CartePageTuteur />
+                        <CartePageTuteur />
+                        <CartePageTuteur />
                     </div>
                 </Grid>
                 {!matchesLG && menuDroite()}

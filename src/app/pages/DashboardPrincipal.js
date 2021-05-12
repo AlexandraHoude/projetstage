@@ -5,7 +5,7 @@ import { ButtonGroup, Dropdown, SplitButton } from 'react-bootstrap';
 import SVG from 'react-inlinesvg';
 import styled from 'styled-components';
 import { toAbsoluteUrl } from '../../_metronic/_helpers';
-import CardGroupe from '../components/cards/CardGroupe';
+import CarteGroupe from '../../components/cartes/CarteGroupe';
 
 const groupe={
     title: 'GROUPE #1034',
@@ -47,7 +47,7 @@ const DashboardPrincipal =()=>{
                         <Grid container spacing={5}>
                             {[1,2,3,4,5,6].map( item=>
                                 <Grid key={item} item xs={12} sm={6} md={4} lg={4}>
-                                    <CardGroupe groupe={groupe}/>
+                                    <CarteGroupe groupe={groupe}/>
                                 </Grid>
                             )}
 

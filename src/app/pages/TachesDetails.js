@@ -10,11 +10,10 @@ import React from 'react';
 import GaugeChart from 'react-gauge-chart';
 import SVG from 'react-inlinesvg';
 import styled from 'styled-components';
-
 import { toAbsoluteUrl } from '../../_metronic/_helpers';
-import { ApercuStagiaires } from '../components/ApercuStagiaires';
-import { InformationsGroupe } from '../components/InformationsGroupe';
-import { ProfilTuteurHote } from '../components/ProfilTuteurHote';
+import { ApercuStagiaires } from '../../components/ApercuStagiaires';
+import { InformationsGroupe } from '../../components/InformationsGroupe';
+import { ProfilTuteurHote } from '../../components/ProfilTuteurHote';
 
 export const TacheDetails = () => {
 

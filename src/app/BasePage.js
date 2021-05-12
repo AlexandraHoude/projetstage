@@ -1,15 +1,14 @@
 import React, { Suspense } from 'react';
 import { Redirect, Switch } from 'react-router-dom';
-
 import { ContentRoute, LayoutSplashScreen } from '../_metronic/layout';
 import { BuilderPage } from './pages/BuilderPage';
 import { DashboardGroup } from './pages/DashboardGroup';
 import { DashboardPage } from './pages/DashboardPage';
 import { DialogParent } from './pages/Dialog';
-import { ListeStagiaires } from './pages/ListeStagiaires';
+import { ListeStagiaires } from './pages/ListeStagiaire';
 import { ListeTachesEtudiant } from './pages/ListeTachesEtudiant';
 import { MyPage } from './pages/MyPage';
-import { TacheDetails } from './pages/TacheDetails';
+import { TacheDetails } from './pages/TachesDetails';
 import { Tuteurs } from './pages/Tuteurs';
 
 export default function BasePage() {

@@ -4,9 +4,9 @@ import { useMediaQuery } from '@material-ui/core/';
 import { useTheme } from '@material-ui/core/styles';
 import React from 'react';
 import { useSubheader } from '../../_metronic/layout';
-import { FiltreStagiaires } from '../components/FiltreStagiaires';
-import { InformationsGroupe } from '../components/InformationsGroupe';
-import { TableauListeStagiaires } from '../components/TableauListeStagiaires';
+import { FiltreStagiaires } from '../../components/FiltreStagiaires';
+import { InformationsGroupe } from '../../components/InformationsGroupe';
+import { TableauListeStagiaires } from '../../components/TableauListeStagiaires';
 
 export const ListeStagiaires = () => {
     const suhbeader = useSubheader();
