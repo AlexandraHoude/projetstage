@@ -4,8 +4,8 @@ import objectPath from 'object-path';
 import React, { useEffect, useMemo } from 'react';
 import SVG from 'react-inlinesvg';
 
-import { toAbsoluteUrl } from '../../../_metronic/_helpers';
-import { useHtmlClassService } from '../../../_metronic/layout';
+import { toAbsoluteUrl } from '../../_metronic/_helpers';
+import { useHtmlClassService } from '../../_metronic/layout';
 
 export function GraphTaches ({ className, symbolShape, baseColor }) {
     const uiService = useHtmlClassService();

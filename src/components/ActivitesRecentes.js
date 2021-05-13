@@ -1,7 +1,7 @@
 /* eslint-disable no-script-url,jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Dropdown } from 'react-bootstrap';
-import { DropdownCustomToggler } from '../../_metronic/_partials/dropdowns';
+import { DropdownCustomToggler } from '../_metronic/_partials/dropdowns';
 
 export function ActivitesRecentes({ className }) {
     return (

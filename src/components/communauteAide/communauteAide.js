@@ -4,8 +4,8 @@ import React from 'react';
 import { Button, Card, Col, Dropdown } from 'react-bootstrap';
 import SVG from 'react-inlinesvg';
 
-import { toAbsoluteUrl } from '../../../_metronic/_helpers';
-import { DropdownCustomToggler } from '../../../_metronic/_partials/dropdowns';
+import { toAbsoluteUrl } from '../../_metronic/_helpers';
+import { DropdownCustomToggler } from '../../_metronic/_partials/dropdowns';
 
 export const communauteAide = ({ className }) => {
     return (

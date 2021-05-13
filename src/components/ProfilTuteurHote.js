@@ -1,8 +1,7 @@
 /* eslint-disable no-restricted-imports */
 import { Grid } from '@material-ui/core';
 import React from 'react';
-
-import { useSubheader } from '../../_metronic/layout';
+import { useSubheader } from '../_metronic/layout';
 import { CarteEntrepriseContact } from '../components/cartes/CarteEntrepriseContact';
 import { CarteStagiaireContact } from '../components/cartes/CarteStagiaireContact';
 import { CarteTuteur } from '../components/cartes/CarteTuteur';

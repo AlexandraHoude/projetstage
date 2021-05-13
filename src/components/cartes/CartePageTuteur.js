@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Button, Card, Image } from 'react-bootstrap';
 import SVG from 'react-inlinesvg';
 import styled from 'styled-components';
-import { toAbsoluteUrl } from '../../../_metronic/_helpers';
+import { toAbsoluteUrl } from '../../_metronic/_helpers';
 import { Icones } from './Icones';
 
 const avatars = [

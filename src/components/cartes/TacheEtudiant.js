@@ -6,7 +6,7 @@ import React from 'react';
 import SVG from 'react-inlinesvg';
 import styled from 'styled-components';
 
-import { toAbsoluteUrl } from '../../../_metronic/_helpers';
+import { toAbsoluteUrl } from '../../_metronic/_helpers';
 
 export const TacheEtudiant = (className) => {
     return (

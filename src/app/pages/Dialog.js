@@ -1,7 +1,6 @@
 import { Button } from '@material-ui/core/';
 import React, { useState } from 'react';
-
-import { DialogExemple } from '../../components/dialogs/dialogExemple';
+import { DialogExemple } from '../../components/dialogs/DialogExemple';
 
 
 export const DialogParent = () => {

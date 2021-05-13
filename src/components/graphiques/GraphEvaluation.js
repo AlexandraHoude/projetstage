@@ -4,7 +4,7 @@ import objectPath from 'object-path';
 import React, { useEffect, useMemo, useState } from 'react';
 import { Nav, Tab } from 'react-bootstrap';
 
-import { useHtmlClassService } from '../../../_metronic/layout';
+import { useHtmlClassService } from '../../_metronic/layout';
 
 export function GraphEvaluation({ className }) {
     const [key, setKey] = useState("Mois");

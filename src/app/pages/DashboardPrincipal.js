@@ -156,7 +156,7 @@ const DashboardPrincipal =()=>{
                                             </span>
                                             <div className='d-flex flex-column flex-grow-1 font-weight-bold'>
                                                 <a href='/' className='text-dark text-hover-primary mb-1 font-size-lg'>
-                                                    Dévelopment web
+                                                    Réseaux et cybersécurité
                                                 </a>
                                                 <span className="text-muted">Éte 2021</span>
                                             </div>
@@ -174,7 +174,7 @@ const DashboardPrincipal =()=>{
                                             </span>
                                             <div className='d-flex flex-column flex-grow-1 font-weight-bold'>
                                                 <a href='/' className='text-dark text-hover-primary mb-1 font-size-lg'>
-                                                    Design et intégration Web
+                                                    Réseaux et cybersécurité
                                                 </a>
                                                 <span className="text-muted">Automne 2020</span>
                                             </div>
@@ -192,7 +192,7 @@ const DashboardPrincipal =()=>{
                                             </span>
                                             <div className='d-flex flex-column flex-grow-1 font-weight-bold'>
                                                 <a href='/' className='text-dark text-hover-primary mb-1 font-size-lg'>
-                                                    Techniques de génie industriel
+                                                    Réseaux et cybersécurité
                                                 </a>
                                                 <span className="text-muted">Automne 2020</span>
                                             </div>

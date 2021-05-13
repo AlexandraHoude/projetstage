@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import styled from 'styled-components';
 
-export const carteEntrepriseContact = () => {
+export const CarteEntrepriseContact = () => {
     return (
         <>
             <Wrapper className='px-4 '>
