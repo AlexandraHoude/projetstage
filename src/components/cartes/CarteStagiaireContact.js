@@ -6,10 +6,8 @@ export const CarteStagiaireContact = () => {
         <Wrapper className='px-4'>
             <h2>Ginette Lebrun</h2>
             <div className='d-flex'>
-                <Button variant='info' className='mr-4'>
-                    Modifier
-                </Button>
-                <Button variant='light-info'>Contacter</Button>
+                <Button variant='info' className='mr-4'> Contacter</Button>
+                <Button variant='light-info'> Modifier</Button>
             </div>
         </Wrapper>
     );

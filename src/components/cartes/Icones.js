@@ -63,20 +63,20 @@ export const Icones = () => {
         <Wrapper>
             <div className='d-flex'>
                 <div className='symbol symbol-40 symbol-light-success mr-5'>
-        <span className='symbol-label'>
-          <SVG
-              className='h-75 align-self-end'
-              src={toAbsoluteUrl(
-                  '/media/svg/avatars/' +
-                  avatars[Math.floor(Math.random() * 50) + 1]
-              )}
-          ></SVG>
-        </span>
+                <span className='symbol-label'>
+                  <SVG
+                      className='h-75 align-self-end'
+                      src={toAbsoluteUrl(
+                          '/media/svg/avatars/' +
+                          avatars[Math.floor(Math.random() * 50) + 1]
+                      )}
+                  ></SVG>
+                </span>
                 </div>
                 <div>
                     <Grid container>
-                        <Grid item xs={12}><span className='fontSizeSmall'><b>Ginnette Renaud</b></span></Grid>
-                        <Grid item xs={12}><span className='text-muted fontSizeSmall'>services solutions</span></Grid>
+                        <Grid item xs={12}><span className='fontSizeSmall'><b>Ginette Hunt</b></span></Grid>
+                        <Grid item xs={12}><span className='text-muted fontSizeSmall'>Websolution Inc</span></Grid>
                     </Grid>
                 </div>
             </div>

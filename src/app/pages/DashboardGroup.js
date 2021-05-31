@@ -8,11 +8,11 @@ import { useSubheader } from '../../_metronic/layout';
 import { ActivitesRecentes } from '../../components/ActivitesRecentes';
 import { ApercuStagiaires } from '../../components/ApercuStagiaires';
 import { CarteTuteur } from '../../components/cartes/CarteTuteur';
-import { communauteAide } from '../../components/communauteAide/communauteAide';
+import { CommunauteAide } from '../../components/communauteAide/CommunauteAide';
 import { GraphSante } from '../../components/graphiques/GraphSante';
 import { GraphTaches } from '../../components/graphiques/GraphTaches';
 import { InformationsGroupe } from '../../components/InformationsGroupe';
-
+import { Icon } from '../image/dashboardIcon.png';
 
 
 export const DashboardGroup = () => {
@@ -22,23 +22,21 @@ export const DashboardGroup = () => {
     const theme = useTheme();
     const matchesMD = useMediaQuery(theme.breakpoints.down('md'));
 
-    console.log(matchesMD)
+
     return (
         <>
             <Grid container>
                 <Grid item xs={12} sm={4} md={3} lg={3} xl={3}>
-
                     <InformationsGroupe  />
                     <ApercuStagiaires />
                 </Grid>
                 <Grid item xs={12} sm={8} md={9} lg={9} xl={9}>
                     <Grid container direction='column' className='p-5'>
                         <Grid item xs={12}>
-                            {/* Section message important */}
                             <Grid container  className='pb-5' >
                                 <Card className='bg-white d-flex'>
                                     <Card.Body className='d-flex'>
-                                        <Image alt='Image a definir' />
+                                        <Image alt='icone' src={Icon} />
                                         <div>
                                             <h1 className='text-muted text-uppercase'>
                                                 message important
@@ -60,9 +58,7 @@ export const DashboardGroup = () => {
                             <Grid container >
                                 <Grid item xs={12} lg={8}>
                                     <Grid container className={matchesMD? 'pr-0':'pr-5'}>
-                                        {/* Section graphiques et Communaute d'aide */}
                                         <Grid item xs={12}>
-                                            {/* GRAPHIQUES */}
                                             <Grid container spacing={2}>
                                                 <Grid item xs={12}  md={6}>
                                                     <GraphTaches
@@ -77,7 +73,7 @@ export const DashboardGroup = () => {
                                             </Grid>
                                         </Grid>
                                         <Grid item xs={12}>
-                                            <communauteAide />
+                                            <CommunauteAide />
                                         </Grid>
                                     </Grid>
                                 </Grid>
@@ -88,7 +84,6 @@ export const DashboardGroup = () => {
                         </Grid>
                         <Grid item xs={12}>
                             <Grid container className='pt-5'>
-                                {/* Tuteurs */}
                                 <Grid item xs={12}>
                                     <h1 className='text-muted'>Tuteurs du groupes : 1038</h1>
                                 </Grid>

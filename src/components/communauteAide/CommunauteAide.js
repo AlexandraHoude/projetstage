@@ -7,7 +7,7 @@ import SVG from 'react-inlinesvg';
 import { toAbsoluteUrl } from '../../_metronic/_helpers';
 import { DropdownCustomToggler } from '../../_metronic/_partials/dropdowns';
 
-export const communauteAide = ({ className }) => {
+export const CommunauteAide = () => {
     return (
         <>
             <Col xs='12' className='px-0 py-5 d-flex justify-content-between '>
@@ -15,31 +15,28 @@ export const communauteAide = ({ className }) => {
                     <Grid item><h1 className='text-muted'>Communaute d'aide</h1></Grid>
                     <Grid item><Button variant='light-info'>Voir tous les messages</Button></Grid>
                 </Grid>
-
-
             </Col>
             <Col xs='12' className='px-0'>
                 <Card>
-                    {/* Derniere demande */}
                     <Card.Title>
                         <Card.Header className='d-flex justify-content-between border-bottom-0'>
                             <div xs='10' className='d-flex'>
                                 <div className='symbol symbol-40 symbol-light mr-5'>
-                  <span className='symbol-label'>
-                    <SVG
-                        className='h-75 align-self-end'
-                        src={toAbsoluteUrl('/media/svg/avatars/011-boy-5.svg')}
-                    ></SVG>
-                  </span>
+                                  <span className='symbol-label'>
+                                    <SVG
+                                        className='h-75 align-self-end'
+                                        src={toAbsoluteUrl('/media/svg/avatars/011-boy-5.svg')}
+                                    ></SVG>
+                                  </span>
                                 </div>
                                 <h3 className='card-title align-items-start flex-column'>
-                  <span className='font-weight-bolder text-dark'>
-                    Sophie Tremblay
-                  </span>
-                                    <br className='border-light' />
-                                    <span className='text-muted mt-3 font-weight-bold font-size-sm'>
-                    Hier a 18:09
-                  </span>
+                                  <span className='font-weight-bolder text-dark'>
+                                    Grace Logan
+                                  </span>
+                                  <br className='border-light' />
+                                  <span className='text-muted mt-3 font-weight-bold font-size-sm'>
+                                    Hier à 9:06
+                                </span>
                                 </h3>
                             </div>
                             <div xs='2' className=''>
@@ -47,8 +44,7 @@ export const communauteAide = ({ className }) => {
                                     <Dropdown.Toggle
                                         id='dropdown-toggle-top'
                                         as={DropdownCustomToggler}
-                                    >
-                                        <i className='ki ki-bold-more-hor' />
+                                    ><i className='ki ki-bold-more-hor' />
                                     </Dropdown.Toggle>
                                     <Dropdown.Menu className='dropdown-menu dropdown-menu-sm dropdown-menu-right'></Dropdown.Menu>
                                 </Dropdown>
@@ -56,7 +52,6 @@ export const communauteAide = ({ className }) => {
                         </Card.Header>
                     </Card.Title>
                     <Card.Body>
-                        {/* Reste a defenir ce qui doit etre la  */}
                         <hr />
                         <Input
                             fullWidth
@@ -64,7 +59,7 @@ export const communauteAide = ({ className }) => {
                             disableUnderline={true}
                             inputProps={{ 'aria-label': 'naked' }}
                             rows={4}
-                            placeholder='Repondre '
+                            placeholder='Répondre '
                         />
                         <Button variant='info' className='float-right'>
                             Envoyer

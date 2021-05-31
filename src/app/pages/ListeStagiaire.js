@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-imports */
 import { Grid } from '@material-ui/core';
 import { useMediaQuery } from '@material-ui/core/';
 import { useTheme } from '@material-ui/core/styles';

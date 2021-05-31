@@ -1,4 +1,3 @@
-/* eslint-disable no-script-url,jsx-a11y/anchor-is-valid */
 import ApexCharts from 'apexcharts';
 import objectPath from 'object-path';
 import React, { useEffect, useMemo, useState } from 'react';
@@ -61,15 +60,14 @@ export function GraphEvaluation({ className }) {
 
     return (
         <div className={`card card-custom ${className}`}>
-            {/* Head */}
             <div className="card-header border-0 pt-5">
                 <h3 className="card-title align-items-start flex-column">
-          <span className="card-label font-weight-bolder text-dark">
-            Évaluation des tâches
-          </span>
+                  <span className="card-label font-weight-bolder text-dark">
+                    Évaluation des tâches
+                  </span>
                     <span className="text-muted mt-3 font-weight-bold font-size-sm">
-            17 tâches en total
-          </span>
+                    17 tâches en total
+                    </span>
                 </h3>
                 <div className="card-toolbar">
                     <Tab.Container defaultActiveKey={key}>

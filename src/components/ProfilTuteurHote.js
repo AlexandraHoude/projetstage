@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-imports */
 import { Grid } from '@material-ui/core';
 import React from 'react';
 import { useSubheader } from '../_metronic/layout';
@@ -10,8 +9,6 @@ import { CarteTuteur } from '../components/cartes/CarteTuteur';
 export const ProfilTuteurHote = () => {
     const suhbeader = useSubheader();
     suhbeader.setTitle('Liste des stagiaires');
-
-
 
     return (
         <Grid container>

@@ -7,15 +7,14 @@ export function ActivitesRecentes({ className }) {
     return (
         <>
             <div className={`card card-custom  ${className}`}>
-                {/* Header */}
                 <div className='card-header align-items-center border-0 mt-4'>
                     <h3 className='card-title align-items-start flex-column'>
-            <span className='font-weight-bolder text-dark'>
-              Activités récentes
-            </span>
+                        <span className='font-weight-bolder text-dark'>
+                          Activités récentes
+                        </span>
                         <span className='text-muted mt-3 font-weight-bold font-size-sm'>
-              350 Tâches inscrites
-            </span>
+                        350 Tâches inscrites
+                        </span>
                     </h3>
                     <div className='card-toolbar'>
                         <Dropdown className='dropdown-inline' alignRight>
@@ -29,7 +28,6 @@ export function ActivitesRecentes({ className }) {
                         </Dropdown>
                     </div>
                 </div>
-                {/* Body */}
                 <div className='card-body pt-4'>
                     <div className='timeline timeline-6 mt-3'>
                         <div className='timeline-item align-items-start'>
@@ -56,9 +54,9 @@ export function ActivitesRecentes({ className }) {
                             </div>
 
                             <div className='timeline-content d-flex'>
-                <span className='font-weight-bolder text-dark-75 pl-3 font-size-lg'>
-                  AEOL meeting
-                </span>
+                                <span className='font-weight-bolder text-dark-75 pl-3 font-size-lg'>
+                                  AEOL meeting
+                                </span>
                             </div>
                         </div>
 
@@ -66,11 +64,9 @@ export function ActivitesRecentes({ className }) {
                             <div className='timeline-label font-weight-bolder text-dark-75 font-size-lg'>
                                 14:37
                             </div>
-
                             <div className='timeline-badge'>
                                 <i className='fa fa-genderless text-danger icon-xl'></i>
                             </div>
-
                             <div className='timeline-content font-weight-bolder font-size-lg text-dark-75 pl-3'>
                                 Make deposit{` `}
                                 <a href='#' className='text-primary'>

@@ -72,18 +72,14 @@ export const CartePageTuteur = () => {
                         <Grid item xs={12} sm={6} className='p-5'>
                             <Grid container spacing={1}>
                                 <Grid item>
-                                    <h5 className='font-weight-bold mb-0'>Ginnette Reanaud</h5>
-                                    <p className='text-muted mb-0'>Services solutions</p>
+                                    <h5 className='font-weight-bold mb-0'>Known Experts</h5>
+                                    <p className='text-muted mb-0'>Ask Everything you wish</p>
                                     <h2 className='text-info font-weight-bold'>3 Stagiaires</h2>
                                 </Grid>
                                 <Grid item>
-                  <span className='symbol circle symbol-75'>
-                    <Image
-                        src={toAbsoluteUrl(
-                            '/media/svg/avatars/' + avatar + '.svg'
-                        )}
-                    />
-                  </span>
+                                <span className='symbol circle symbol-75'>
+                                    <Image src={toAbsoluteUrl('/media/svg/avatars/' + avatar + '.svg')}/>
+                                </span>
                                 </Grid>
                             </Grid>
                             <Grid container spacing={1}>
@@ -100,47 +96,33 @@ export const CartePageTuteur = () => {
                                 justify='space-between'
                                 className='align-items-end py-4 px-5'
                             >
-                <span className='text-muted font-weight-bold mb-0 '>
-                  Ses stagiaires
-                </span>
+                            <span className='text-muted font-weight-bold mb-0 '>
+                              Ses stagiaires
+                            </span>
                                 <div>
-                                    <a
-                                        href='/'
-                                        className='btn btn-icon btn-light btn-hover-primary btn-sm mx-3'
-                                    >
-                    <span className='svg-icon svg-icon-md svg-icon-primary'>
-                      <SVG
-                          src={toAbsoluteUrl(
-                              '/media/svg/icons/Communication/Write.svg'
-                          )}
-                      ></SVG>
-                    </span>
+                                    <a href='/' className='btn btn-icon btn-light btn-hover-primary btn-sm mx-3'>
+                                    <span className='svg-icon svg-icon-md svg-icon-primary'>
+                                        <SVG src={toAbsoluteUrl('/media/svg/icons/Communication/Write.svg')}></SVG>
+                                    </span>
                                     </a>
-                                    <a
-                                        href='/'
-                                        className='btn btn-icon btn-light btn-hover-primary btn-sm'
-                                    >
-                    <span className='svg-icon svg-icon-md svg-icon-primary'>
-                      <SVG
-                          src={toAbsoluteUrl(
-                              '/media/svg/icons/General/Trash.svg'
-                          )}
-                      ></SVG>
-                    </span>
-                    </a>
-                    </div>
-                    </Grid>
-                        <Grid container direction='column' spacing={1}>
-                            <Grid item xs={12}>
-                                <Icones />
+                                    <a href='/' className='btn btn-icon btn-light btn-hover-primary btn-sm'>
+                                        <span className='svg-icon svg-icon-md svg-icon-primary'>
+                                            <SVG src={toAbsoluteUrl('/media/svg/icons/General/Trash.svg')}></SVG>
+                                        </span>
+                                    </a>
+                                </div>
                             </Grid>
-                            <Grid item xs={12}>
-                                <Icones />
+                            <Grid container direction='column' spacing={1}>
+                                <Grid item xs={12}>
+                                    <Icones />
+                                </Grid>
+                                <Grid item xs={12}>
+                                    <Icones />
+                                </Grid>
+                                <Grid item xs={12}>
+                                    <Icones />
+                                </Grid>
                             </Grid>
-                            <Grid item xs={12}>
-                                <Icones />
-                            </Grid>
-                        </Grid>
                         </Grid>
                     </Grid>
                 </Card.Body>

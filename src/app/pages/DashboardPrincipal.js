@@ -27,7 +27,6 @@ const DashboardPrincipal =()=>{
         height: 300,
         allowResizeX: false,
         allowResizeY: false
-        // all options from https://xdsoft.net/jodit/doc/
     }
 
     const [buttonMessageValue, setButtonMessageValue] = useState('Envoyer à tous les stagiaires');

@@ -2,7 +2,6 @@ import { Grid } from '@material-ui/core';
 import StarsIcon from '@material-ui/icons/Stars';
 import React from 'react';
 import { Button, Col } from 'react-bootstrap';
-
 import { Icones } from './cartes/Icones';
 
 export const ApercuStagiaires = () => {
@@ -15,7 +14,7 @@ export const ApercuStagiaires = () => {
                             <h4 className='font-weight-bolder'>Stagiaires</h4>
                         </Grid>
                         <Grid item>
-                            <Button variant='light-info font-weight-bolder '>Ajouter</Button>
+                            <Button variant='light-info font-weight-bolder'>Ajouter</Button>
                         </Grid>
                     </Grid>
                 </Grid>
@@ -65,6 +64,42 @@ export const ApercuStagiaires = () => {
                                 <Grid item xs={2}>
                                     <Grid container justify='flex-end'>
                                         <StarsIcon className=' mt-0 text-primary' />
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <Grid container alignItems='center'>
+                                <Grid item xs={10}>
+                                    <Icones />
+                                </Grid>
+                                <Grid item xs={2}>
+                                    <Grid container justify='flex-end'>
+                                        <StarsIcon className=' mt-0 text-success' />
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <Grid container alignItems='center'>
+                                <Grid item xs={10}>
+                                    <Icones />
+                                </Grid>
+                                <Grid item xs={2}>
+                                    <Grid container justify='flex-end'>
+                                        <StarsIcon className=' mt-0 text-danger' />
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <Grid container alignItems='center'>
+                                <Grid item xs={10}>
+                                    <Icones />
+                                </Grid>
+                                <Grid item xs={2}>
+                                    <Grid container justify='flex-end'>
+                                        <StarsIcon className=' mt-0 text-warning' />
                                     </Grid>
                                 </Grid>
                             </Grid>

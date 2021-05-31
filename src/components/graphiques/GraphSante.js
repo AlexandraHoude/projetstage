@@ -54,21 +54,17 @@ export function GraphSante({ className }) {
         <div className={`card card-custom ${className}`}>
             <div className="card-body d-flex flex-column p-0">
                 <div className="d-flex align-items-center justify-content-between card-spacer flex-grow-1">
-          <span className="symbol symbol-circle symbol-50 symbol-light-primary mr-2">
-            <span className="symbol-label">
-              <span className="svg-icon svg-icon-xl svg-icon-primary">
-                <SVG
-                    src={toAbsoluteUrl(
-                        "/media/svg/icons/Shopping/Cart3.svg"
-                    )}
-                ></SVG>
-              </span>
-            </span>
-          </span>
+                  <span className="symbol symbol-circle symbol-50 symbol-light-primary mr-2">
+                    <span className="symbol-label">
+                      <span className="svg-icon svg-icon-xl svg-icon-primary">
+                        <SVG src={toAbsoluteUrl("/media/svg/icons/Shopping/Cart3.svg")}></SVG>
+                      </span>
+                    </span>
+                  </span>
                     <div className="d-flex flex-column text-right">
-            <span className="text-dark-75 font-weight-bolder font-size-h3">
-              Santé du groupe
-            </span>
+                        <span className="text-dark-75 font-weight-bolder font-size-h3">
+                          Santé du groupe
+                        </span>
                         <span className="text-muted font-weight-bold mt-2">Les 7 derniers jours</span>
                     </div>
                 </div>

@@ -6,14 +6,13 @@ export const CarteEntrepriseContact = () => {
     return (
         <>
             <Wrapper className='px-4 '>
-                <img alt='a definir si import ou non' />
-                <p className=''>Adresse</p>
-                <p className=' mb-3'>Ville region zip</p>
-                <p className=''>Telephone</p>
-                <p className=' mb-3'>Siteweb</p>
+                <p className=''>481 rue Saint-Joseph Est - 3e étage, Québec QC G1K 3B6</p>
+                <br/>
+                <p className=' mb-3'>(+1)581-701-8272</p>
+                <p className=''>www.phenixweb.com</p>
                 <h4 className='font-weight-bold mb-2'>Responsable du stagiaire : </h4>
-                <p className=''>Nom</p>
-                <p className=' mb-3'>Email</p>
+                <p className=''>Samuel Caron</p>
+                <p className=' mb-3'>s.caron@gmail.com</p>
                 <Button variant='info'>Contacter</Button>
             </Wrapper>
         </>

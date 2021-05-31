@@ -1,9 +1,7 @@
-/* eslint-disable no-script-url,jsx-a11y/anchor-is-valid */
 import ApexCharts from 'apexcharts';
 import objectPath from 'object-path';
 import React, { useEffect, useMemo } from 'react';
 import SVG from 'react-inlinesvg';
-
 import { toAbsoluteUrl } from '../../_metronic/_helpers';
 import { useHtmlClassService } from '../../_metronic/layout';
 
@@ -54,26 +52,20 @@ export function GraphTaches ({ className, symbolShape, baseColor }) {
         <div className={`card card-custom ${className}`}>
             <div className="card-body p-0">
                 <div className="d-flex align-items-center justify-content-between card-spacer flex-grow-1">
-          <span
-              className={`symbol ${symbolShape} symbol-50 symbol-light-${baseColor} mr-2`}
-          >
-            <span className="symbol-label">
-              <span className={`svg-icon svg-icon-xl svg-icon-${baseColor}`}>
-                <SVG
-                    src={toAbsoluteUrl(
-                        "/media/svg/icons/Layout/Layout-4-blocks.svg"
-                    )}
-                ></SVG>
-              </span>
-            </span>
-          </span>
+                  <span className={`symbol ${symbolShape} symbol-50 symbol-light-${baseColor} mr-2`}>
+                    <span className="symbol-label">
+                      <span className={`svg-icon svg-icon-xl svg-icon-${baseColor}`}>
+                        <SVG src={toAbsoluteUrl("/media/svg/icons/Layout/Layout-4-blocks.svg")}></SVG>
+                      </span>
+                    </span>
+                  </span>
                     <div className="d-flex flex-column text-right">
-            <span className="text-dark-75 font-weight-bolder font-size-h3">
-              350 tâches
-            </span>
+                        <span className="text-dark-75 font-weight-bolder font-size-h3">
+                          350 tâches
+                        </span>
                         <span className="text-muted font-weight-bold mt-2">
-              Depuis le début du stage
-            </span>
+                        Depuis le début du stage
+                        </span>
                     </div>
                 </div>
                 <div

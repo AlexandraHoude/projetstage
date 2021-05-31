@@ -13,51 +13,36 @@ export const FiltreStagiaires = () => {
     );
     return (
         <Wrapper>
-            {/*  <div>
-        Boolean is set to <b>{String(afficherFiltreEtoiles)}</b>.
-      </div> */}
-
             <h1 className='text-muted my-5'>Filtres</h1>
             <div className='d-flex py-2 align-items-center'>
-                <div
-                    onClick={toggleFiltre}
-                    className='symbol symbol-40 symbol-light-success mr-5 hover-etoiles'
-                >
-          <span className='symbol-label'>
-            <span className='svg-icon svg-icon-lg svg-icon-success'>
-              <SVG
-                  className='h-75 align-self-end'
-                  src={toAbsoluteUrl('/media/svg/icons/Home/Library.svg')}
-              ></SVG>
-            </span>
-          </span>
+                <div onClick={toggleFiltre} className='symbol symbol-40 symbol-light-success mr-5 hover-etoiles'>
+                  <span className='symbol-label'>
+                    <span className='svg-icon svg-icon-lg svg-icon-success'>
+                      <SVG
+                          className='h-75 align-self-end'
+                          src={toAbsoluteUrl('/media/svg/icons/Home/Library.svg')}
+                      ></SVG>
+                    </span>
+                  </span>
                 </div>
-
                 <div className='d-flex flex-column font-weight-bold'>
-                    <p
-                        className='text-dark text-hover-primary mb-1 font-size-lg hover-etoiles'
-                        onClick={toggleFiltre}
-                    >
+                    <p className='text-dark text-hover-primary mb-1 font-size-lg hover-etoiles' onClick={toggleFiltre}>
                         Par moyenne
                     </p>
-
                 </div>
-
             </div>
-            {afficherFiltreEtoiles && <div className='px-5 pb-5'><FiltreEtoilesStagiaires /></div> }
-
+            {afficherFiltreEtoiles &&
+            <div className='px-5 pb-5'>
+                <FiltreEtoilesStagiaires />
+            </div> }
             <div className='d-flex py-2 align-items-center'>
                 <div className='symbol symbol-40 symbol-light-success mr-5'>
-          <span className='symbol-label'>
-            <span className='svg-icon svg-icon-lg svg-icon-success'>
-              <SVG
-                  className='h-75 align-self-end'
-                  src={toAbsoluteUrl('/media/svg/icons/Home/Library.svg')}
-              ></SVG>
-            </span>
-          </span>
+                  <span className='symbol-label'>
+                    <span className='svg-icon svg-icon-lg svg-icon-success'>
+                      <SVG className='h-75 align-self-end' src={toAbsoluteUrl('/media/svg/icons/Home/Library.svg')}></SVG>
+                    </span>
+                  </span>
                 </div>
-
                 <div className='d-flex flex-column font-weight-bold'>
                     <p className='text-dark text-hover-primary mb-1 font-size-lg'>
                         Aucune tâche inscrite
@@ -66,16 +51,12 @@ export const FiltreStagiaires = () => {
             </div>
             <div className='d-flex py-2 align-items-center'>
                 <div className='symbol symbol-40 symbol-light-success mr-5'>
-          <span className='symbol-label'>
-            <span className='svg-icon svg-icon-lg svg-icon-success'>
-              <SVG
-                  className='h-75 align-self-end'
-                  src={toAbsoluteUrl('/media/svg/icons/Home/Library.svg')}
-              ></SVG>
-            </span>
-          </span>
+                  <span className='symbol-label'>
+                    <span className='svg-icon svg-icon-lg svg-icon-success'>
+                      <SVG className='h-75 align-self-end' src={toAbsoluteUrl('/media/svg/icons/Home/Library.svg')}></SVG>
+                    </span>
+                  </span>
                 </div>
-
                 <div className='d-flex flex-column font-weight-bold'>
                     <p className='text-dark text-hover-primary mb-1 font-size-lg'>
                         Non affecté à un stage

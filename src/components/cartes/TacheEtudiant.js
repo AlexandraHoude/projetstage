@@ -16,36 +16,30 @@ export const TacheEtudiant = (className) => {
                     <div className='card-header border-0 py-5'>
                         <div className='d-flex'>
                             <div className='symbol symbol-40 symbol-light-success mr-5'>
-                <span className='symbol-label'>
-                  <SVG
-                      className='h-75 '
-                      src={toAbsoluteUrl('/media/svg/avatars/042-girl-23.svg')}
-                  ></SVG>
-                </span>
-                </div>
-                <h3 className='card-title align-items-start flex-column m-0'>
-                <span className='card-label font-weight-bolder text-dark'>
-                  Exploration du milieu de stage
-                </span>
-                <span className='text-muted mt-3 font-weight-bold font-size-sm'>
-                  <SVG
-                      src={toAbsoluteUrl(
-                          '/media/svg/icons/Communication/Add-user.svg'
-                      )}
-                      className='h-50 align-self-center'
-                  ></SVG>{' '}
-                                    4 septembre 17
-                </span>
-                </h3>
-                </div>
-                    <div className='card-toolbar align-self-start m-0'>
-                        <a
-                            href='/'
-                            className='btn btn-light-info font-weight-bolder font-size-sm '
-                        >
-                            Voir
-                        </a>
-                    </div>
+                                <span className='symbol-label'>
+                                  <SVG className='h-75 ' src={toAbsoluteUrl('/media/svg/avatars/042-girl-23.svg')}></SVG>
+                                </span>
+                            </div>
+                            <h3 className='card-title align-items-start flex-column m-0'>
+                                <span className='card-label font-weight-bolder text-dark'>
+                                  Exploration du milieu de stage
+                                </span>
+                                <span className='text-muted mt-3 font-weight-bold font-size-sm'>
+                                  <SVG
+                                      src={toAbsoluteUrl(
+                                          '/media/svg/icons/Communication/Add-user.svg'
+                                      )}
+                                      className='h-50 align-self-center'
+                                  ></SVG>{' '}
+                                                    4 sept 2021
+                                </span>
+                            </h3>
+                        </div>
+                        <div className='card-toolbar align-self-start m-0'>
+                            <a href='/' className='btn btn-light-info font-weight-bolder font-size-sm '>
+                                Voir
+                            </a>
+                        </div>
                 </div>
                     <div className='card-body pt-0'>
                         <div className='card-text'>
